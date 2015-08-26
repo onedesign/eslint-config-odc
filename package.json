@@ -10,5 +10,9 @@
   },
   "author": "One Design Company <onedesigncompany.com",
   "license": "ISC",
-  "homepage": "https://github.com/onedesign/eslint-config-odc"
+  "homepage": "https://github.com/onedesign/eslint-config-odc",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ]
 }
