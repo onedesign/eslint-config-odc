@@ -14,7 +14,7 @@ See the [ODC Gulp Setup](https://github.com/onedesign/dotfiles/tree/master/gulp)
 If you install this config globally, you can then use the `extends` property in any `.eslintrc` file to pull in this configuration. You can find more details in the [eslint-config-standard](https://github.com/feross/eslint-config-standard) project.
 
 ```
-npm install -g eslint-config-odc
+npm install -g eslint-config-odc babel-eslint eslint-plugin-react
 ```
 
 ```json
