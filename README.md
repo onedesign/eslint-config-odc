@@ -21,6 +21,6 @@ npm install -g eslint-config-odc
 // in .eslintrc
 
 {
-  "extends": "eslint-config-odc"
+  "extends": "odc"
 }
 ```
