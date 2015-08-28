@@ -15,7 +15,6 @@
     "no-spaced-func": [2],
     "no-unused-vars": [2, { "vars": "all" }],
     "object-curly-spacing": [2, "always"],
-    "padded-blocks": [2, "never"],
     "space-before-function-paren": [2, "never"],
     "space-in-parens": [2, "never"],
     "strict": 0
