@@ -4,7 +4,7 @@
   "rules": {
     "array-bracket-spacing": [2, "never"],
     "block-spacing": [2, "always"],
-    "brace-style": [2, "stroustrup", { "allowSingleLine": true }],
+    "brace-style": [2, "1tbs", { "allowSingleLine": true }],
     "camelcase": 2,
     "comma-spacing": [2, { "before": false, "after": true }],
     "handle-callback-err": [2, "er"],
@@ -15,6 +15,7 @@
     "no-spaced-func": [2],
     "no-unused-vars": [2, { "vars": "local", "args": "none" }],
     "object-curly-spacing": [2, "always"],
+    "padded-blocks": [2, "never"],
     "space-before-function-paren": [2, "never"],
     "space-in-parens": [2, "never"],
     "strict": 0
