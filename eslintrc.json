@@ -13,7 +13,7 @@
     "max-nested-callbacks": [2, 2],
     "no-mixed-spaces-and-tabs": [2],
     "no-spaced-func": [2],
-    "no-unused-vars": [2, { "vars": "all" }],
+    "no-unused-vars": [2, { "vars": "local", "args": "none" }],
     "object-curly-spacing": [2, "always"],
     "padded-blocks": [2, "never"],
     "space-before-function-paren": [2, "never"],
