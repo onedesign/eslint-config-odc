@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-odc",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "One Design Company Javascript coding standards for use with ESLint http://eslint.org",
   "main": "index.js",
   "scripts": {},
