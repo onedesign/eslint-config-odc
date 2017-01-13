@@ -17,7 +17,7 @@
     "camelcase": "warn",
     "comma-spacing": ["error", { "before": false, "after": true }],
     "handle-callback-err": ["error", "er"],
-    "indent": ["error", "error"],
+    "indent": ["error", 2, { "SwitchCase": 1 }],
     "key-spacing": ["error", { "beforeColon": false, "afterColon": true }],
     "max-nested-callbacks": ["error", "error"],
     "no-mixed-spaces-and-tabs": ["error"],
