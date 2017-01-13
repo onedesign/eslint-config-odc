@@ -1,8 +1,15 @@
 {
   "extends": "eslint:recommended",
-  
+
   "parser": "babel-eslint",
-  
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+
   "rules": {
     "array-bracket-spacing": [2, "never"],
     "block-spacing": [2, "always"],
@@ -21,9 +28,12 @@
     "space-before-function-paren": [2, "never"],
     "space-in-parens": [2, "never"],
     "strict": 0,
-    "no-undef": 0
+    "no-undef": 0,
+    "react/react-in-jsx-scope": 2,
+    "react/jsx-uses-react": 2,
+    "react/jsx-uses-vars": 2
   },
-  
+
   "plugins": [
     "react"
   ]
