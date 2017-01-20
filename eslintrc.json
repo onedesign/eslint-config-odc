@@ -1,29 +1,39 @@
 {
   "extends": "eslint:recommended",
-  
+
   "parser": "babel-eslint",
-  
-  "rules": {
-    "array-bracket-spacing": [2, "never"],
-    "block-spacing": [2, "always"],
-    "brace-style": [2, "1tbs", { "allowSingleLine": true }],
-    "camelcase": 1,
-    "comma-spacing": [2, { "before": false, "after": true }],
-    "handle-callback-err": [2, "er"],
-    "indent": [2, 2],
-    "key-spacing": [2, { "beforeColon": false, "afterColon": true }],
-    "max-nested-callbacks": [2, 2],
-    "no-mixed-spaces-and-tabs": [2],
-    "no-spaced-func": [2],
-    "no-unused-vars": [2, { "vars": "local", "args": "none" }],
-    "object-curly-spacing": [2, "always"],
-    "padded-blocks": [2, "never"],
-    "space-before-function-paren": [2, "never"],
-    "space-in-parens": [2, "never"],
-    "strict": 0,
-    "no-undef": 0
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
   },
-  
+
+  "rules": {
+    "array-bracket-spacing": ["error", "never"],
+    "block-spacing": ["error", "always"],
+    "brace-style": ["error", "1tbs", { "allowSingleLine": true }],
+    "camelcase": "warn",
+    "comma-spacing": ["error", { "before": false, "after": true }],
+    "handle-callback-err": ["error", "er"],
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "key-spacing": ["error", { "beforeColon": false, "afterColon": true }],
+    "max-nested-callbacks": ["error", 2],
+    "no-mixed-spaces-and-tabs": ["error"],
+    "no-spaced-func": ["error"],
+    "no-unused-vars": ["error", { "vars": "local", "args": "none" }],
+    "object-curly-spacing": ["error", "always"],
+    "padded-blocks": ["error", "never"],
+    "space-before-function-paren": ["error", "never"],
+    "space-in-parens": ["error", "never"],
+    "strict": "off",
+    "no-undef": "off",
+    "react/react-in-jsx-scope": "error",
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error"
+  },
+
   "plugins": [
     "react"
   ]
