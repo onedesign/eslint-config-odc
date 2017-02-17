@@ -7,7 +7,7 @@ One Design Company Javascript coding standards for use with [ESLint](http://esli
 
 ### With Gulp
 
-See the [ODC Gulp Setup](https://github.com/onedesign/dotfiles/tree/master/gulp) for an example of use with Gulp.
+See the [generator-one-base](https://github.com/onedesign/generator-one-base) for an example of use with Gulp.
 
 ### In your global or project-specific .eslintrc
 
