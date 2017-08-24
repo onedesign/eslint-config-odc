@@ -35,8 +35,17 @@
     "react/react-in-jsx-scope": "error",
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
-    "max-nested-callbacks": ["error", 6]
+    "max-nested-callbacks": ["error", 3]
   },
+
+  "overrides": [
+    {
+      "files": [ "test/**/*.js" ],
+      "rules": {
+        "max-nested-callbacks": ["error", 4],
+      }
+    }
+  ],
 
   "plugins": [
     "react"
