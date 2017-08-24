@@ -16,6 +16,7 @@
     "brace-style": ["error", "1tbs", { "allowSingleLine": true }],
     "camelcase": "warn",
     "comma-spacing": ["error", { "before": false, "after": true }],
+    "comma-dangle": ["error", "never"],
     "handle-callback-err": ["error", "er"],
     "indent": ["error", 2, { "SwitchCase": 1 }],
     "key-spacing": ["error", { "beforeColon": false, "afterColon": true }],
@@ -31,7 +32,8 @@
     "no-undef": "off",
     "react/react-in-jsx-scope": "error",
     "react/jsx-uses-react": "error",
-    "react/jsx-uses-vars": "error"
+    "react/jsx-uses-vars": "error",
+    "max-nested-callbacks": ["error", 6]
   },
 
   "plugins": [
