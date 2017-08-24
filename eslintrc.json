@@ -30,7 +30,7 @@
     "semi": ["error", "always"],
     "strict": "off",
     "no-undef": "off",
-    "no-bitwise": ["error"],
+    "no-bitwise": "error",
     "react/react-in-jsx-scope": "error",
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
