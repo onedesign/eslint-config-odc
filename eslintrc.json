@@ -27,6 +27,7 @@
     "padded-blocks": ["error", "never"],
     "space-before-function-paren": ["error", "never"],
     "space-in-parens": ["error", "never"],
+    "semi": ["error", "always"],
     "strict": "off",
     "no-undef": "off",
     "react/react-in-jsx-scope": "error",
