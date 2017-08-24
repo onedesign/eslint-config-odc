@@ -25,6 +25,7 @@
     "no-spaced-func": ["error"],
     "no-unused-vars": ["error", { "vars": "local", "args": "none" }],
     "object-curly-spacing": ["error", "always"],
+    "quotes": ["error", "single", "avoid-escape"],
     "space-before-function-paren": ["error", "never"],
     "space-in-parens": ["error", "never"],
     "semi": ["error", "always"],
