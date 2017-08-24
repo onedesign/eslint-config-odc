@@ -31,7 +31,8 @@
     "no-undef": "off",
     "react/react-in-jsx-scope": "error",
     "react/jsx-uses-react": "error",
-    "react/jsx-uses-vars": "error"
+    "react/jsx-uses-vars": "error",
+    "valid-jsdoc": "error"
   },
 
   "plugins": [
