@@ -29,6 +29,7 @@
     "space-in-parens": ["error", "never"],
     "semi": ["error", "always"],
     "strict": "off",
+    "new-cap": "error",
     "no-undef": "off",
     "no-bitwise": "error",
     "react/react-in-jsx-scope": "error",
